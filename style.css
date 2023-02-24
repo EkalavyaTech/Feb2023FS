@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
+/*
 *{
 	box-sizing: border-box;
 	padding: 0px;
@@ -159,4 +159,120 @@ p{
 	color: green;
 }
 
+a:active{
+
+}
+
+
+
+
+
+a{
+	color: black;
+	padding: 10px;
+	background-color: green;
+	text-decoration: none;
+}
+
+a:hover{
+	background-color: red;
+	color: white;
+}
+
+
+a:visited{
+	color: blue;
+}
+
+
+
+a::selection{
+	background-color: white;
+	color: red;
+}
+
+
+a::after{
+  content: "\1F48E";
+  background-image: url("https://www.tailorbrands.com/wp-content/uploads/2020/07/mcdonalds-logo.jpg");
+  background-size: 22px 22px;
+  width:22px;
+  height:22px;
+  padding-left: 27px;
+  background-repeat: no-repeat;
+}
+
+p::first-letter{
+	background-color: yellow;
+	color: red;
+}
+
+
+
+::marker{
+	color:gray;
+}
+
+
+::first-line{
+	color:gray;
+}
+
+
 */
+
+
+/*
+a:hover{
+	background-color: red;
+	color: white;
+}
+
+
+a:visited{
+	color: blue;
+}
+
+input:checked{
+
+
+}
+
+input:empty{
+
+
+}*/
+
+
+input {
+	background-color: white;
+}
+
+input:focus {
+	background-color: green;
+}
+
+p:empty{
+	background-color: green;
+	width: 100px;
+	height: 20px;
+}
+
+
+p{
+	background-color: grey;
+}
+
+
+input:required {
+	border: 2px solid red;
+}
+
+
+li:nth-child(odd){
+	background-color: grey;
+}
+
+input:checked{
+
+}
