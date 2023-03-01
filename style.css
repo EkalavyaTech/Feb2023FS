@@ -241,7 +241,7 @@ input:checked{
 input:empty{
 
 
-}*/
+}
 
 
 input {
@@ -276,3 +276,121 @@ li:nth-child(odd){
 input:checked{
 
 }
+
+
+a{
+	font-size: 30px;
+}
+
+a[target]{
+	background-color: green;
+}
+
+
+a[title~='tech']{
+	background-color: red;
+}
+
+
+a[title*='tech']{
+	background-color: red;
+}
+
+
+a[title^='tech']{
+	background-color: red;
+}
+
+
+a[title$='tech']{
+	background-color: red;
+}
+
+
+
+
+p#test_id{
+	color: tomato;
+}
+
+#test_id{
+	color: black ;
+}
+
+
+.test_class{
+	color: yellow;
+}	
+
+
+div p{
+	color: blue;
+}	
+
+p{
+	color: red;
+	font-size: 30px;
+}
+
+
+
+
+
+div{
+		background-color: red;
+		width: 100%;
+		height: 100px;
+}
+
+
+@media (min-width: 900px)
+{
+	div{
+		background-color: green;
+		width: 100%;
+		height: 100px;
+	}
+}
+
+
+*/
+
+.container{
+  display:flex;
+	background-color:#d0d0d0;
+	//flex-direction: column wrap;
+	//flex-wrap: column wrap;
+	flex-flow: row wrap;
+}
+
+
+.container > div{
+	padding: 50px;
+	background-color: red;
+	margin: 10px;
+	font-size: 80px;
+}
+
+
+
+@media (max-width: 800px)
+{
+	.container{
+	  display:flex;
+		background-color:#d0d0d0;
+		//flex-direction: column wrap;
+		//flex-wrap: column wrap;
+		flex-flow: column wrap;
+	}
+
+
+	.container > div{
+		padding: 50px;
+		background-color: red;
+		margin: 10px;
+		font-size: 80px;
+		width: 100%;
+	}
+}
+
+
