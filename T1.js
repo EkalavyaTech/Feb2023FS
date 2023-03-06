@@ -36,7 +36,7 @@ Primitive Data Types
 
 
 
-let width = 20
+let width = 20d
 let height = 5.7
 let area = 10
 area = width
